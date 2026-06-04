@@ -1,10 +1,11 @@
 extends Control
 
+var tiles := []
+
 const PIPE_SCENE = preload("res://scenes/board/Pipe.tscn")
 
 @onready var grid = $GridContainer
 
-var tiles := []
 
 func _ready():
 	for y in range(6):
