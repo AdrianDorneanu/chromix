@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://ch8f4k4euek8p"]
+
+[ext_resource type="Script" uid="uid://c1s6y0cw0psjr" path="res://scenes/scripts/Main.gd" id="1_elqb8"]
+
+[node name="Control" type="Control" unique_id=932587046]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_elqb8")
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1159531230]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+columns = 6
